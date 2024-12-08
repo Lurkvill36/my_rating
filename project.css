@@ -1,0 +1,99 @@
+* {box-sizing: border-box;}
+
+#wrapper {width: 100%;
+            margin: auto;
+    }
+
+.logo {background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    padding-top: 10px;}
+
+header {font-size: 30px;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    color: #ffffff;}
+
+nav {font-weight: bold;
+    font-size: 2em;
+    padding: 2px;
+    margin: 0 auto;
+    word-spacing: 8px;
+    text-align: center;
+    display: block;
+    font-family: Verdana;
+    border-bottom: #5c5958 solid;}
+nav a {text-decoration: none;}
+nav a:link {color: #231814;}
+nav a:visited {color: #ffffff;}
+nav a:hover {color: #a0c682;
+    text-decoration: underline;}
+
+body {color: #a0c682;
+    font-size: large;
+    font-family: Tahoma, Arial, sans-serif;
+    background-image: url(images/records.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    width: 90%;
+    margin: 0 auto;}
+
+.body_1 {background-color: rgba(0,0,0,0.5);
+        font-size: larger;
+        margin: auto;
+        width: 75%;
+        padding: 5px;
+        text-align: center;}
+
+.body_2 {background-color: rgba(0,0,0,0.5);
+        font-size: x-large;
+        margin: auto;
+        width: 50%;
+        border: 2px solid green;
+        padding: 10px;
+        text-align: center;}
+
+.body_3 {background-color: rgba(0,0,0,0.5);
+    font-size: larger;
+    margin: auto;
+    width: 50%;
+    padding: 5px;
+    text-align: center;}
+
+.body_4 {background-color: rgba(0,0,0,0.5);
+    font-size: large;
+    margin: auto;
+    width: 80%;
+    padding: 5px;
+    text-align: center;
+    color: whitesmoke;
+    padding-left: 2px;
+    padding-right: 2px;}
+
+.body_5 {background-color: rgba(0,0,0,0.5);
+    font-size: larger;
+    margin: auto;
+    width: 75%;
+    padding: 5px;
+    text-align: center;}
+.body_5 a {text-decoration: none;}
+.body_5 a:link {color: #231814;}
+.body_5 a:visited {color: #ffffff;}
+.body_5 a:hover {color: #a0c682;}
+
+
+footer {background-color: #c7c7c7;
+    font-size: .8em;
+    text-align: center;
+    font-style: italic;
+    padding: 1em;
+    border-top: 1px solid #5c5958;
+    border-right: 1px solid #5c5958;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: gray;}
